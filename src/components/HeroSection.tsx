@@ -72,9 +72,9 @@ export const HeroSection = () => {
                 2000,
                 "ML Engineer",
                 2000,
-                "Deep Learning Enthusiast",
+                "Generative AI Developer",
                 2000,
-                "Problem Solver",
+                "LLM Specialist",
                 2000,
               ]}
               wrapper="span"

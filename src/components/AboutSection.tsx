@@ -1,23 +1,23 @@
 import { motion } from "framer-motion";
 import { MapPin, GraduationCap, Briefcase, Award } from "lucide-react";
-import { developerInfo } from "@/data/portfolioData";
+import { developerInfo, experience, education } from "@/data/portfolioData";
 
 export const AboutSection = () => {
   const highlights = [
     {
       icon: GraduationCap,
       title: "Education",
-      description: "M.S. in Data Science",
+      description: "M.S. Data Science",
     },
     {
       icon: Briefcase,
       title: "Experience",
-      description: "2+ Years in ML/AI",
+      description: "2+ Years ML/AI",
     },
     {
       icon: Award,
-      title: "Achievements",
-      description: "Kaggle Top 10%",
+      title: "Certifications",
+      description: "5+ AI/ML Certs",
     },
     {
       icon: MapPin,
@@ -64,7 +64,7 @@ export const AboutSection = () => {
               <div className="relative bg-card border border-border rounded-2xl p-8 text-center">
                 {/* Avatar Placeholder */}
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-4xl font-bold font-display text-primary-foreground">
-                  AC
+                  MH
                 </div>
                 
                 <h3 className="text-2xl font-bold font-display mb-2">
@@ -118,25 +118,69 @@ export const AboutSection = () => {
               ))}
             </div>
 
-            {/* Stats */}
+            {/* Experience */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="mt-8"
+            >
+              <h3 className="text-lg font-bold font-display mb-4 gradient-text">Experience</h3>
+              <div className="space-y-4">
+                {experience.map((exp, i) => (
+                  <div key={i} className="border-l-2 border-primary/30 pl-4">
+                    <div className="font-semibold">{exp.title}</div>
+                    <div className="text-sm text-primary">{exp.company} • {exp.period}</div>
+                    <ul className="text-sm text-muted-foreground mt-2 space-y-1">
+                      {exp.highlights.slice(0, 2).map((h, j) => (
+                        <li key={j}>• {h}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* Education */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
+              className="mt-8"
+            >
+              <h3 className="text-lg font-bold font-display mb-4 gradient-text">Education</h3>
+              <div className="space-y-3">
+                {education.map((edu, i) => (
+                  <div key={i} className="border-l-2 border-accent/30 pl-4">
+                    <div className="font-semibold">{edu.degree}</div>
+                    <div className="text-sm text-muted-foreground">{edu.school}</div>
+                    <div className="text-xs text-primary">{edu.period}</div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* Stats */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
               className="grid grid-cols-3 gap-6 mt-8 pt-8 border-t border-border"
             >
               <div className="text-center">
-                <div className="text-3xl font-bold font-display gradient-text">15+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold font-display gradient-text">5+</div>
-                <div className="text-sm text-muted-foreground">Open Source Contributions</div>
+                <div className="text-3xl font-bold font-display gradient-text">2+</div>
+                <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold font-display gradient-text">10+</div>
-                <div className="text-sm text-muted-foreground">Technical Articles</div>
+                <div className="text-sm text-muted-foreground">ML Projects</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold font-display gradient-text">5+</div>
+                <div className="text-sm text-muted-foreground">Certifications</div>
               </div>
             </motion.div>
           </motion.div>
