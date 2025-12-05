@@ -15,7 +15,7 @@ export const AIChatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hi! I'm Alex's AI assistant. Ask me anything about their skills, projects, or experience!",
+      content: "Hi! I'm Hamza's AI assistant. Ask me anything about his skills, projects, or experience!",
     },
   ]);
   const [input, setInput] = useState("");
@@ -97,7 +97,7 @@ export const AIChatbot = () => {
                   <Bot size={20} className="text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="font-display font-semibold text-sm">Alex's AI Assistant</h3>
+                  <h3 className="font-display font-semibold text-sm">Hamza's AI Assistant</h3>
                   <p className="text-xs text-muted-foreground">Ask me anything!</p>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export const AIChatbot = () => {
                 <Input
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Ask about Alex's experience..."
+                  placeholder="Ask about Hamza's experience..."
                   className="flex-1 bg-secondary border-border"
                   disabled={isLoading}
                 />
