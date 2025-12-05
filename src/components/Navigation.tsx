@@ -34,7 +34,7 @@ export const Navigation = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#hero" className="font-display text-xl font-bold gradient-text">
-          AC
+          MH
         </a>
 
         {/* Desktop Navigation */}
