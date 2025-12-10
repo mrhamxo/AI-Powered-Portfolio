@@ -4,7 +4,7 @@ A modern, AI-powered portfolio website showcasing expertise in Generative AI, LL
 
 ## Live Demo
 
-**Published URL:** [https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3](https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3)
+**Published URL:** [Muhammad Hamza | Machine Learning Engineer AI-Powered Portfolio](https://nextgen-dev-spotlight.lovable.app)
 
 ## Features
 
