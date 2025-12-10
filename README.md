@@ -63,8 +63,8 @@ The project is deployed via Lovable's built-in publishing feature. Click **Share
 **Muhammad Hamza**  
 Machine learning Engineer | LLM Specialist
 
-- GitHub: [github.com/mrhamxo](https://github.com/mrhamxo)
-- LinkedIn: [linkedin.com/in/mrhamxo](https://linkedin.com/in/muhammad-hamza-khattak)
+- GitHub: [Github Profile](https://github.com/mrhamxo)
+- LinkedIn: [Linkedin Profile](https://linkedin.com/in/muhammad-hamza-khattak)
 - Email: mr.hamxa942@gmail.com
 
 ## License
