@@ -61,11 +61,11 @@ The project is deployed via Lovable's built-in publishing feature. Click **Share
 ## Author
 
 **Muhammad Hamza**  
-Generative AI Developer | LLM Specialist
+Machine learning Engineer | LLM Specialist
 
 - GitHub: [github.com/mrhamxo](https://github.com/mrhamxo)
-- LinkedIn: [linkedin.com/in/mrhamxo](https://linkedin.com/in/mrhamxo)
-- Email: hamzauet93@gmail.com
+- LinkedIn: [linkedin.com/in/mrhamxo](https://linkedin.com/in/muhammad-hamza-khattak)
+- Email: mr.hamxa942@gmail.com
 
 ## License
 
