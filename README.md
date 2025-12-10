@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# Muhammad Hamza - Portfolio Website
 
-## Project info
+A modern, AI-powered portfolio website showcasing expertise in Generative AI, LLMs, and Machine Learning Engineering.
 
-**URL**: https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3
+## Live Demo
 
-## How can I edit this code?
+**Published URL:** [https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3](https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3)
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Interactive AI Chatbot** - Intelligent assistant powered by Lovable AI that answers questions about skills, projects, and experience
+- **Responsive Design** - Fully mobile-responsive with dark theme optimized for data science aesthetics
+- **Project Showcase** - Highlights key ML/AI projects with live demos and GitHub links
+- **Skills Visualization** - Interactive display of technical competencies and proficiency levels
+- **Contact Integration** - Direct communication channels via email and social platforms
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React, TypeScript, Tailwind CSS, Framer Motion
+- **Backend:** Supabase Edge Functions (Lovable Cloud)
+- **AI Integration:** Lovable AI (Google Gemini)
+- **Styling:** Custom dark theme with neural network aesthetics
+- **Animations:** React Type Animation, Framer Motion
 
-**Use your preferred IDE**
+## Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/       # React components
+├── data/            # Portfolio data and content
+├── hooks/           # Custom React hooks
+├── integrations/    # Supabase client configuration
+├── lib/             # Utility functions
+└── pages/           # Page components
 ```
 
-**Edit a file directly in GitHub**
+## Featured Projects
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. **LangGraph-Powered Agentic Chatbot** - Multi-agent system with autonomous decision-making
+2. **Modular RAG-Powered PDF Chatbot** - Enterprise-grade document Q&A system
+3. **Intelligent Log Classification System** - Hybrid ML log analysis with 92% accuracy
+4. **AI Disease & Treatment Advisor** - Healthcare ML assistant for symptom-based diagnosis
 
-**Use GitHub Codespaces**
+## Development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# Install dependencies
+npm install
 
-## What technologies are used for this project?
+# Start development server
+npm run dev
 
-This project is built with:
+# Build for production
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+The project is deployed via Lovable's built-in publishing feature. Click **Share → Publish** to deploy updates.
 
-Simply open [Lovable](https://lovable.dev/projects/63b54f5c-85e5-4ce2-9ba1-6bd94b0629b3) and click on Share -> Publish.
+## Author
 
-## Can I connect a custom domain to my Lovable project?
+**Muhammad Hamza**  
+Generative AI Developer | LLM Specialist
 
-Yes, you can!
+- GitHub: [github.com/mrhamxo](https://github.com/mrhamxo)
+- LinkedIn: [linkedin.com/in/mrhamxo](https://linkedin.com/in/mrhamxo)
+- Email: hamzauet93@gmail.com
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the MIT License.
