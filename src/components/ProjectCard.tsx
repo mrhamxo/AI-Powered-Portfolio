@@ -83,7 +83,7 @@ export const ProjectCard = ({
           {/* Actions */}
           <div className="flex gap-3">
             <Button variant="outline" size="sm" asChild>
-              <a href={`https://github.com/mrhamxo/${github}`} target="_blank" rel="noopener noreferrer">
+              <a href={`https://nextgen-dev-spotlight.lovable.app/${github}`} target="_blank" rel="noopener noreferrer">
                 <Github size={16} />
                 {github}
               </a>
