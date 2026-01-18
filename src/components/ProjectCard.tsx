@@ -83,9 +83,9 @@ export const ProjectCard = ({
           {/* Actions */}
           <div className="flex gap-3">
             <Button variant="outline" size="sm" asChild>
-              <a href={github} target="_blank" rel="noopener noreferrer">
+              <a href={`https://github.com/mrhamxo/${github}`} target="_blank" rel="noopener noreferrer">
                 <Github size={16} />
-                Code
+                {github}
               </a>
             </Button>
           </div>
