@@ -88,12 +88,6 @@ export const ProjectCard = ({
                 Code
               </a>
             </Button>
-            <Button variant="default" size="sm" asChild>
-              <a href={demo} target="_blank" rel="noopener noreferrer">
-                <ExternalLink size={16} />
-                Demo
-              </a>
-            </Button>
           </div>
         </div>
       </div>
